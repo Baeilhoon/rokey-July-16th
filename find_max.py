@@ -28,3 +28,5 @@ for i in ca:
     if max < i:
         max = i
 print("최댓값:",max)
+
+print("---------------------")

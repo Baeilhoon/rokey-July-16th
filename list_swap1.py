@@ -1,3 +1,5 @@
+# list_swqp1.py
+
 ca = [10,11]
 print("ca[0]값:",ca[0],end=",")
 print("ca[1]값:",ca[1])
@@ -111,6 +113,7 @@ def fk(cb):
     return cb
 ca = [10,20,30]
 print(ca)
+# cb = ca
 cd = fk(ca)
-print(ca)
+print(ca)       # 참조 동일 --> 변화가 이루어짐
 print(cd)
